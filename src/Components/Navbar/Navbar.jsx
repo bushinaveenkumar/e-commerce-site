@@ -3,6 +3,7 @@ import './Navbar.css'
 import { Link } from 'react-router-dom'
 import { ShopContext } from '../../Context/ShopContext'
 import cart_icon from '../Assets/cart_icon.png'
+import shopper_logo from '../Assets/shopper-icon.jpg'
 
 const Navbar = () => {
     const [menu, setMenu]=useState("shop")
@@ -11,7 +12,8 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <div className='nav-logo'>
-            <p>SHOPPER</p>
+            <img src={shopper_logo} className='shopper-logo' alt='' />
+            <h1>SHOPPER</h1>
         </div>
         <ul className='nav-menu'>
             <li onClick={()=>setMenu("shop")}><Link style={{textDecoration:'none'}} to='/'>Shop</Link> {menu==="shop"?<hr/>:<></>}</li>

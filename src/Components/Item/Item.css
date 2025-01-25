@@ -11,13 +11,19 @@
     height: 240px;
 }
 .item-name{
-    padding-top: 8px;
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
     font-family: sans-serif;
-    font-size: medium;
+    width:190px;
+    font-size:12px;
+    margin-bottom: 4px;
 }
 .item-prices{
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
+    gap:48px;
+    font-size: 14px;
 }
 
 .item-old-price{

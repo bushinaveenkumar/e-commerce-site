@@ -14,7 +14,7 @@ const Hero = () => {
             <p>new collections</p>
             <p>for every one</p>
             <div >
-              <button className='hero-latest-button'>latest collection</button>
+              <button className='hero-latest-button'>Latest collection</button>
               <img src={''} alt=''/>
             </div>
         </div> 

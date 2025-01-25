@@ -26,13 +26,12 @@
 }
 .shopcategory-products{
     display: grid;
-    margin: 40px 600px;
-    grid-template-columns:1fr 1 fr 1 fr 1fr;
+    margin: 40px 60px;
+    grid-template-columns:1fr 1fr 1fr 1fr;
     row-gap: 80px;
 }
 .shopcategory-loadmore{
     display: flex;
-    
     justify-content: center;
     align-items: center;
     width:230px;

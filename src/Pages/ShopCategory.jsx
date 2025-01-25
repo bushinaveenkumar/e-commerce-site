@@ -13,15 +13,13 @@ const ShopCategory = (props) => {
           <div className="shopcategory-sort">
               Sort by <img src={drapdown_img} alt=""/>
         </div>
-        </div>
-
-        
+        </div>        
         
         <div className="shopcategory-products">          
             {
               all_products.map((item,i)=>{
                 if (item.category===props.category){                
-                  return <Item key={i} id={item.id} name={item.name} img={item.img} new_price={item.new_price} old_price={item.old_price}/>
+                  return <Item key={i} id={item.id} name={item.name} img={item.image} new_price={item.new_price} old_price={item.old_price}/>
                 }
                 else 
                   return null;
